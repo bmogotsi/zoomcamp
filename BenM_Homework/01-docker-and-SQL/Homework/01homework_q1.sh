@@ -2,19 +2,19 @@
 # Shebang explainer: https://www.shellcheck.net/wiki/SC2148
 # https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/
 
-# $ cd  ~/gitProjectFlr/data-engineering-zoomcamp/BenM/01-docker-terraform/
-# $ chmod u+x 01Homework.sh # assign execution rights
-# $ bash 01homework.sh  # run this script 
-# Save output to 01homework.md
+# $ cd  ~/gitProjectFlr/zoomcamp/BenM_Homework/01-docker-and-SQL/Homework
+# $ chmod u+x 01homework_q1.sh # assign execution rights
+# $ bash 01homework_q1.sh  # run this script 
+# Save output to 01homework_q1.md
 
 # ">" will replace file, ">>" will append file
-echo "##  Module01 Homework"   > 01homework.md
+echo "##  Module01 Homework"   > 01homework_q1.md
 echo "
-###  Docker & SQL "   >> 01homework.md
+###  Docker & SQL "   >> 01homework_q1.md
 
 echo "
 
-# #################################  Question 1. Knowing docker tags  ################################# "   >> 01homework.md
+# #################################  Question 1. Knowing docker tags  ################################# "   >> 01homework_q1.md
 
 
 echo "
@@ -22,8 +22,8 @@ echo "
 #   ________________________________________  $ docker --help    ________________________________________ 
 
 
-"  >> 01homework.md
-docker --help  >> 01homework.md #docker info
+"  >> 01homework_q1.md
+docker --help  >> 01homework_q1.md #docker info
 
 
 echo "
@@ -31,8 +31,8 @@ echo "
 #   ________________________________________  $ docker build --help    ________________________________________ 
 
 
-"  >> 01homework.md
-docker build --help  >> 01homework.md # docker build command info
+"  >> 01homework_q1.md
+docker build --help  >> 01homework_q1.md # docker build command info
 
 
 echo "
@@ -40,8 +40,8 @@ echo "
 #   ________________________________________  $ docker run --help    ________________________________________ 
 
 
-"  >> 01homework.md
-docker run --help  >> 01homework.md # docker rin command info
+"  >> 01homework_q1.md
+docker run --help  >> 01homework_q1.md # docker rin command info
 
 
 echo "
@@ -51,5 +51,5 @@ echo "
 #
 #    ________________________________________  $ docker run --rm    ________________________________________ 
 
-"  >> 01homework.md
+"  >> 01homework_q1.md
 
