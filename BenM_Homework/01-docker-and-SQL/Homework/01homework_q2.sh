@@ -18,7 +18,7 @@ echo "
 
 echo "
 
-#   ______Run docker with the python:3.9 image in an interactive mode and the entrypoint of bash._______ 
+#   2.1______Run docker with the python:3.9 image in an interactive mode and the entrypoint of bash._______ 
 $ winpty docker run -it --entrypoint=bash python:3.9 
 
 "  >> 01homework_q2.md
@@ -27,7 +27,7 @@ winpty docker run -it --entrypoint=bash python:3.9 >> 01homework_q2.md # attach 
 
 echo "
 
-#   ______Now check the python modules that are installed ( use pip list )._______ 
+#   2.2______Now check the python modules that are installed ( use pip list )._______ 
 What is version of the package wheel ?
         
         #   Correct answer is: 0.42.0
@@ -59,4 +59,29 @@ echo "
 #    [notice] A new release of pip is available: 23.0.1 -> 24.0
 #    [notice] To update, run: pip install --upgrade pip
 #    root@e75d27d9938c:/# pip list >> exit
+"  >> 01homework_q2.md
+
+
+echo "
+
+#   2.3.1______Prepare Postgres/Run Postgres_______ 
+        
+        #   Correct answer is: 0.42.0
+"  >> 01homework_q2.md
+
+
+echo "
+
+#   2.3.2______Download nyc-tlc-data _______ 
+        
+        #   Correct answer is: 0.42.0
+"  >> 01homework_q2.md
+
+
+echo "
+
+#   2.3.3______put data into Postgres_______ 
+        use jupyter notebooks or pipeline script
+        
+        #   Correct answer is: 0.42.0
 "  >> 01homework_q2.md
